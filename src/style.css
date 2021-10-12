@@ -1,0 +1,17 @@
+.home{
+    border: 1px solid red;
+}
+
+.menu{
+    border: 1px solid blue;
+}
+
+.contact{
+    border: 1px solid gold;
+}
+
+.container{
+    width: 400px;
+    height: 200px;
+    border: 1px solid green;
+}
