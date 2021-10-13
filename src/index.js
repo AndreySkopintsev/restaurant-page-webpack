@@ -46,13 +46,20 @@ function createNav(){
     return btns
 }
 
+function createFooter(){
+    const footer = document.createElement('footer')
+    const h1 = document.createElement('h1')
+    h1.textContent='i\'m footer'
+    footer.appendChild(h1)
+
+    return footer
+}
+
 
 content.appendChild(createHeader())
 content.appendChild(container)
+content.appendChild(createFooter())
 
-
-
-// Appending all the buttons to the nav
 
 
 createMain()
